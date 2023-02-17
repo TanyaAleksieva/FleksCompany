@@ -8,8 +8,8 @@
         public string Size { get; set; }
         public int Quantity { get; set; }
         public string Description { get; set; }
-        public int Application { get; set; }
-        //public Typea Application 
+        public int IdApplication { get; set; }
+        public Typea Application { get; set; }
         public int SportId { get; set; }
         public Sport Sport { get; set; }
         public double Price { get; set; }
