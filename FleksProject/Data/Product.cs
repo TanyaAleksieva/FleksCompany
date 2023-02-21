@@ -8,7 +8,7 @@
         public string Size { get; set; }
         public int Quantity { get; set; }
         public string Description { get; set; }
-        public int IdApplication { get; set; }
+        public int ApplicationId { get; set; }
         public Typea Application { get; set; }
         public int SportId { get; set; }
         public Sport Sport { get; set; }
